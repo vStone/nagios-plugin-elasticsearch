@@ -371,9 +371,6 @@ class ElasticSearchCheck(NagiosCheck):
             ("storesize", 'indices.store.size_in_bytes', "B"),
             ("documents", 'indices.docs.count', "c"),
 
-            ("index_ops", 'indices.indexing.index_total', "c"),
-            ("index_time", 'indices.indexing.index_time_in_millis', "ms"),
-
             ("flush_ops", 'indices.flush.total', "c"),
             ("flush_time", 'indices.flush.total_time_in_millis', "ms"),
 
